@@ -149,7 +149,7 @@ a:hover {
 
 .program-description {
             max-width: 800px;
-            text-align: left;
+            text-align: center;
             display: grid;
             margin: 0 auto;
             line-height: 1.6;
