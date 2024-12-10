@@ -31,25 +31,40 @@
       <br>
       <h2 class="pagetitles">Contact us - We'd love to hear from you!</h2>
         <section class="contact-form">
-            <form>
-                <div class="form-group">
-                    <input type="text" placeholder="First Name">
-                    <input type="text" placeholder="Last Name">
-                </div>
-                <div class="form-group">
-                    <input type="email" placeholder="Email Address">
-                    <input type="tel" placeholder="Phone Number">
-                </div>
-                <div class="form-group">
-                    <select>
-                        <option>General Inquiry</option>
-                        <option>Admissions</option>
-                        <option>Program Details</option>
-                    </select>
-                </div>
-                <textarea placeholder="Message"></textarea>
-                <button type="submit">Message Sent</button>
-            </form>
+                    <form action="mailto:bennettd@smccd.edu" method="post" enctype="text/plain">
+        <ul class="form-style-1">
+          <li><label>Full Name <span class="required">*</span></label><input type="text" name="first name" class="field-divided" placeholder="First" /> <input type="text" name="last name" class="field-divided" placeholder="Last" /></li>
+          <li>
+            <label>Email <span class="required">*</span></label>
+            <input type="email" name="email" class="field-long" />
+          </li>
+          <br>
+           <p><strong>Which program(s) are you interested in?</strong></p>
+          <br>
+    <input type="checkbox" id="program1" name="program1" value="Web/Multimedia">
+    <label for="program1"> Web/Multimedia</label><br>
+    <input type="checkbox" id="program2" name="program2" value="Graphic Design">
+    <label for="program2"> Graphic Design</label><br>
+    <input type="checkbox" id="program3" name="program3" value="Broadcast & Electronic Media">
+    <label for="program3"> Broadcast & Electronic Media</label><br>
+   
+<li>
+<label>Subject</label>
+<select name="subject" class="field-select">
+<option value="General Question">General Question</option>
+<option value="General Question">Program Info</option>
+<option value="General Question">Admissions</option>
+</select>
+</li>
+          <li>
+            <label>Your Message <span class="required">*</span></label>
+            <textarea name="your message" id="field5" class="field-long field-textarea"></textarea>
+          </li>
+          <li>
+            <input type="submit" value="Submit"/>
+          </li>
+        </ul>
+      </form>
         </section>
         <section class="contacts">
             <div class="contact-card location">
@@ -58,7 +73,7 @@
             </div>
         </section>
         <div class="map">
-            <img src="images/map.jpg" alt="Location Map">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.7783270391346!2d-122.33779392359524!3d37.536722425836196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f9e35dc190833%3A0x1e0f19fa02fdcfa3!2sCollege%20Center!5e0!3m2!1sen!2sus!4v1733768705624!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </main>
     <footer>
